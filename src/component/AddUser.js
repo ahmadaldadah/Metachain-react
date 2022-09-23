@@ -215,8 +215,7 @@ function AddUser(props) {
 
                     </div>
                     <div className="row">
-                        <button className="btn-user" type="button">Select Image</button>
-
+                        <input type="file" value={avatar} onChange={onChangeAvatar}/>
                     </div>
 
                 </div>
